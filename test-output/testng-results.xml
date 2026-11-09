@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="25" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Phone number send successfully]]>
+    </line>
+    <line>
+      <![CDATA[OTP verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home title verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[castIron ButtonText verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[castIron Button clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Item searched successfully]]>
+    </line>
+    <line>
+      <![CDATA[products Text Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add+ Button Text Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add+ Button clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[CartPopUp Close Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[image click Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add To Cart Button Text Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add To Cart clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add To Cart clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cart Icon clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[myCart Text Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Increment Button Clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Decrement Button Clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Delete Button Clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[CheckOut Clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cash Delivery Clicked successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-03T22:41:44 IST" name="Suite" finished-at="2026-10-03T22:44:33 IST" duration-ms="169485">
+    <groups>
+    </groups>
+    <test started-at="2026-10-03T22:41:44 IST" name="Test" finished-at="2026-10-03T22:44:33 IST" duration-ms="169485">
+      <class name="com.indusvalley.test.IndusValleyLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:41:44 IST" name="setup" finished-at="2026-10-03T22:42:04 IST" duration-ms="20237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:42:04 IST" name="before" finished-at="2026-10-03T22:42:04 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyLoginTest.phoneNumSend()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="phoneNumSend()[pri:-1, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:42:04 IST" name="phoneNumSend" finished-at="2026-10-03T22:42:07 IST" duration-ms="3057" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Phone number send successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- phoneNumSend -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:42:07 IST" name="reportGenerate" finished-at="2026-10-03T22:42:07 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoneNumSend status=SUCCESS method=IndusValleyLoginTest.phoneNumSend()[pri:-1, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f] output=Phone number send successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:42:07 IST" name="before" finished-at="2026-10-03T22:42:07 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyLoginTest.otpVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="otpVerify()[pri:-2, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:42:07 IST" name="otpVerify" finished-at="2026-10-03T22:42:23 IST" depends-on-methods="com.indusvalley.test.IndusValleyLoginTest.phoneNumSend" duration-ms="16213" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OTP verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:42:23 IST" name="reportGenerate" finished-at="2026-10-03T22:42:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=otpVerify status=SUCCESS method=IndusValleyLoginTest.otpVerify()[pri:-2, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f] output=OTP verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.indusvalley.test.IndusValleyLoginTest@5dda768f]" started-at="2026-10-03T22:44:33 IST" name="teardown" finished-at="2026-10-03T22:44:33 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.indusvalley.test.IndusValleyLoginTest -->
+      <class name="com.indusvalley.test.IndusValleyCartTest">
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:24 IST" name="before" finished-at="2026-10-03T22:44:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.cartIconClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="cartIconClickVerify()[pri:14, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:24 IST" name="cartIconClickVerify" finished-at="2026-10-03T22:44:25 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart Icon clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartIconClickVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="reportGenerate" finished-at="2026-10-03T22:44:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartIconClickVerify status=SUCCESS method=IndusValleyCartTest.cartIconClickVerify()[pri:14, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=Cart Icon clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="before" finished-at="2026-10-03T22:44:25 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.myCartTextCheckVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="myCartTextCheckVerify()[pri:15, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="myCartTextCheckVerify" finished-at="2026-10-03T22:44:25 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[myCart Text Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- myCartTextCheckVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="reportGenerate" finished-at="2026-10-03T22:44:25 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myCartTextCheckVerify status=SUCCESS method=IndusValleyCartTest.myCartTextCheckVerify()[pri:15, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=myCart Text Verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="before" finished-at="2026-10-03T22:44:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.incrementButtonClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="incrementButtonClickVerify()[pri:16, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="incrementButtonClickVerify" finished-at="2026-10-03T22:44:25 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Increment Button Clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- incrementButtonClickVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="reportGenerate" finished-at="2026-10-03T22:44:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=incrementButtonClickVerify status=SUCCESS method=IndusValleyCartTest.incrementButtonClickVerify()[pri:16, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=Increment Button Clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="before" finished-at="2026-10-03T22:44:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.decrementButtonClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="decrementButtonClickVerify()[pri:17, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="decrementButtonClickVerify" finished-at="2026-10-03T22:44:25 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Decrement Button Clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- decrementButtonClickVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="reportGenerate" finished-at="2026-10-03T22:44:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=decrementButtonClickVerify status=SUCCESS method=IndusValleyCartTest.decrementButtonClickVerify()[pri:17, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=Decrement Button Clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="before" finished-at="2026-10-03T22:44:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.deleteButtonClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="deleteButtonClickVerify()[pri:18, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:25 IST" name="deleteButtonClickVerify" finished-at="2026-10-03T22:44:26 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete Button Clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteButtonClickVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:26 IST" name="reportGenerate" finished-at="2026-10-03T22:44:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteButtonClickVerify status=SUCCESS method=IndusValleyCartTest.deleteButtonClickVerify()[pri:18, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=Delete Button Clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:26 IST" name="before" finished-at="2026-10-03T22:44:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.checkOutClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checkOutClickVerify()[pri:19, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:26 IST" name="checkOutClickVerify" finished-at="2026-10-03T22:44:27 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CheckOut Clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkOutClickVerify -->
+        <test-method signature="cashDeliveryClickVerify()[pri:20, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:27 IST" name="cashDeliveryClickVerify" finished-at="2026-10-03T22:44:33 IST" duration-ms="5965" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cash Delivery Clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cashDeliveryClickVerify -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:27 IST" name="before" finished-at="2026-10-03T22:44:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyCartTest.cashDeliveryClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:27 IST" name="reportGenerate" finished-at="2026-10-03T22:44:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOutClickVerify status=SUCCESS method=IndusValleyCartTest.checkOutClickVerify()[pri:19, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=CheckOut Clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyCartTest@752325ad]" started-at="2026-10-03T22:44:33 IST" name="reportGenerate" finished-at="2026-10-03T22:44:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cashDeliveryClickVerify status=SUCCESS method=IndusValleyCartTest.cashDeliveryClickVerify()[pri:20, instance:com.indusvalley.test.IndusValleyCartTest@752325ad] output=Cash Delivery Clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- com.indusvalley.test.IndusValleyCartTest -->
+      <class name="com.indusvalley.test.IndusValleyHomeTest">
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:23 IST" name="before" finished-at="2026-10-03T22:42:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.countLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="countLink()[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:23 IST" name="countLink" finished-at="2026-10-03T22:42:24 IST" duration-ms="158" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [719] but found [721]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [719] but found [721]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at com.indusvalley.test.IndusValleyHomeTest.countLink(IndusValleyHomeTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countLink -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="reportGenerate" finished-at="2026-10-03T22:42:24 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countLink status=FAILURE method=IndusValleyHomeTest.countLink()[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method signature="homeTitleVerify()[pri:1, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="homeTitleVerify" finished-at="2026-10-03T22:42:24 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home title verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homeTitleVerify -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="before" finished-at="2026-10-03T22:42:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.homeTitleVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="reportGenerate" finished-at="2026-10-03T22:42:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeTitleVerify status=SUCCESS method=IndusValleyHomeTest.homeTitleVerify()[pri:1, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Home title verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method signature="castIronButtonTextVerify()[pri:2, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="castIronButtonTextVerify" finished-at="2026-10-03T22:42:24 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[castIron ButtonText verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- castIronButtonTextVerify -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="before" finished-at="2026-10-03T22:42:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.castIronButtonTextVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="castIronButtonclickVerify()[pri:3, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="castIronButtonclickVerify" finished-at="2026-10-03T22:42:25 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[castIron Button clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- castIronButtonclickVerify -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="before" finished-at="2026-10-03T22:42:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.castIronButtonclickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:24 IST" name="reportGenerate" finished-at="2026-10-03T22:42:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=castIronButtonTextVerify status=SUCCESS method=IndusValleyHomeTest.castIronButtonTextVerify()[pri:2, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=castIron ButtonText verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:25 IST" name="reportGenerate" finished-at="2026-10-03T22:42:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=castIronButtonclickVerify status=SUCCESS method=IndusValleyHomeTest.castIronButtonclickVerify()[pri:3, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=castIron Button clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method signature="searchItems()[pri:4, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:25 IST" name="searchItems" finished-at="2026-10-03T22:42:39 IST" duration-ms="13994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Item searched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:25 IST" name="before" finished-at="2026-10-03T22:42:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.searchItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="reportGenerate" finished-at="2026-10-03T22:42:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=IndusValleyHomeTest.searchItems()[pri:4, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Item searched successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="before" finished-at="2026-10-03T22:42:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.productsTextVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="productsTextVerify()[pri:5, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="productsTextVerify" finished-at="2026-10-03T22:42:39 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[products Text Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productsTextVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="reportGenerate" finished-at="2026-10-03T22:42:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productsTextVerify status=SUCCESS method=IndusValleyHomeTest.productsTextVerify()[pri:5, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=products Text Verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="before" finished-at="2026-10-03T22:42:39 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.addButtonTextVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="addButtonTextVerify()[pri:6, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="addButtonTextVerify" finished-at="2026-10-03T22:42:39 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add+ Button Text Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addButtonTextVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="reportGenerate" finished-at="2026-10-03T22:42:39 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addButtonTextVerify status=SUCCESS method=IndusValleyHomeTest.addButtonTextVerify()[pri:6, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Add+ Button Text Verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="before" finished-at="2026-10-03T22:42:39 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.addButtonClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="addButtonClickVerify()[pri:7, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="addButtonClickVerify" finished-at="2026-10-03T22:42:39 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add+ Button clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addButtonClickVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="reportGenerate" finished-at="2026-10-03T22:42:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addButtonClickVerify status=SUCCESS method=IndusValleyHomeTest.addButtonClickVerify()[pri:7, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Add+ Button clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="before" finished-at="2026-10-03T22:42:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.cartPopUpCloseVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="cartPopUpCloseVerify()[pri:8, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="cartPopUpCloseVerify" finished-at="2026-10-03T22:42:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CartPopUp Close Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartPopUpCloseVerify -->
+        <test-method signature="imageClickVerify()[pri:9, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="imageClickVerify" finished-at="2026-10-03T22:43:40 IST" duration-ms="60578" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[image click Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- imageClickVerify -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="before" finished-at="2026-10-03T22:42:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.imageClickVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:42:39 IST" name="reportGenerate" finished-at="2026-10-03T22:42:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartPopUpCloseVerify status=SUCCESS method=IndusValleyHomeTest.cartPopUpCloseVerify()[pri:8, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=CartPopUp Close Verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:40 IST" name="reportGenerate" finished-at="2026-10-03T22:43:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=imageClickVerify status=SUCCESS method=IndusValleyHomeTest.imageClickVerify()[pri:9, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=image click Verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:40 IST" name="before" finished-at="2026-10-03T22:43:40 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.addToCartButtonTextVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="addToCartButtonTextVerify()[pri:10, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:40 IST" name="addToCartButtonTextVerify" finished-at="2026-10-03T22:43:41 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add To Cart Button Text Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartButtonTextVerify -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:41 IST" name="reportGenerate" finished-at="2026-10-03T22:43:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartButtonTextVerify status=SUCCESS method=IndusValleyHomeTest.addToCartButtonTextVerify()[pri:10, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Add To Cart Button Text Verified successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:41 IST" name="before" finished-at="2026-10-03T22:43:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.addToCartButtonClick()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="addToCartButtonClick()[pri:11, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:41 IST" name="addToCartButtonClick" finished-at="2026-10-03T22:43:41 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add To Cart clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartButtonClick -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:41 IST" name="reportGenerate" finished-at="2026-10-03T22:43:41 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartButtonClick status=SUCCESS method=IndusValleyHomeTest.addToCartButtonClick()[pri:11, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Add To Cart clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method signature="filterVerify()[pri:12, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:41 IST" name="filterVerify" finished-at="2026-10-03T22:43:54 IST" duration-ms="13254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add To Cart clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterVerify -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:41 IST" name="before" finished-at="2026-10-03T22:43:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.filterVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:54 IST" name="reportGenerate" finished-at="2026-10-03T22:43:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterVerify status=SUCCESS method=IndusValleyHomeTest.filterVerify()[pri:12, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output=Add To Cart clicked successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method signature="randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:55 IST" name="randomSearch" data-provider="SearchItems" finished-at="2026-10-03T22:44:05 IST" duration-ms="9394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kadai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomSearch -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:43:55 IST" name="before" finished-at="2026-10-03T22:43:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:05 IST" name="reportGenerate" finished-at="2026-10-03T22:44:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:05 IST" name="before" finished-at="2026-10-03T22:44:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:05 IST" name="randomSearch" data-provider="SearchItems" finished-at="2026-10-03T22:44:13 IST" duration-ms="8469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coocker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomSearch -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:13 IST" name="reportGenerate" finished-at="2026-10-03T22:44:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:13 IST" name="before" finished-at="2026-10-03T22:44:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:13 IST" name="randomSearch" data-provider="SearchItems" finished-at="2026-10-03T22:44:19 IST" duration-ms="5306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tawa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomSearch -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:19 IST" name="reportGenerate" finished-at="2026-10-03T22:44:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:19 IST" name="before" finished-at="2026-10-03T22:44:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:19 IST" name="randomSearch" data-provider="SearchItems" finished-at="2026-10-03T22:44:24 IST" duration-ms="5593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fry pan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomSearch -->
+        <test-method is-config="true" signature="reportGenerate(org.testng.ITestResult)[pri:0, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f]" started-at="2026-10-03T22:44:24 IST" name="reportGenerate" finished-at="2026-10-03T22:44:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.String)[pri:13, instance:com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- com.indusvalley.test.IndusValleyHomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

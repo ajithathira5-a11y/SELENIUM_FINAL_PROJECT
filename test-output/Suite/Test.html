@@ -1,0 +1,405 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 03 22:41:44 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>169 seconds (169485 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.countLink()'><b>countLink</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest</td>
+<td><div><pre>java.lang.AssertionError: expected [719] but found [721]
+	at com.indusvalley.test.IndusValleyHomeTest.countLink(IndusValleyHomeTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1387671967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387671967'><pre>java.lang.AssertionError: expected [719] but found [721]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at com.indusvalley.test.IndusValleyHomeTest.countLink(IndusValleyHomeTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.productsTextVerify()'><b>productsTextVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-1318080469" onClick='toggleBox("Output-1318080469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1318080469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1318080469">
+products Text Verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.incrementButtonClickVerify()'><b>incrementButtonClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-2133998394" onClick='toggleBox("Output-2133998394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133998394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133998394">
+Increment Button Clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.cartPopUpCloseVerify()'><b>cartPopUpCloseVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-2118984327" onClick='toggleBox("Output-2118984327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2118984327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2118984327">
+CartPopUp Close Verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.imageClickVerify()'><b>imageClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-1955948959" onClick='toggleBox("Output-1955948959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955948959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955948959">
+image click Verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>60</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.castIronButtonclickVerify()'><b>castIronButtonclickVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-253767021" onClick='toggleBox("Output-253767021", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-253767021" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-253767021">
+castIron Button clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.addToCartButtonTextVerify()'><b>addToCartButtonTextVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-819092483" onClick='toggleBox("Output-819092483", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-819092483" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-819092483">
+Add To Cart Button Text Verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.deleteButtonClickVerify()'><b>deleteButtonClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-1749978269" onClick='toggleBox("Output-1749978269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1749978269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1749978269">
+Delete Button Clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.searchItems()'><b>searchItems</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-2084486251" onClick='toggleBox("Output-2084486251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2084486251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2084486251">
+Item searched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.checkOutClickVerify()'><b>checkOutClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-1638051511" onClick='toggleBox("Output-1638051511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1638051511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1638051511">
+CheckOut Clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.filterVerify()'><b>filterVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-1488395499" onClick='toggleBox("Output-1488395499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1488395499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1488395499">
+Add To Cart clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.randomSearch()'><b>randomSearch</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br>Parameters: coocker</td>
+<td></td>
+<td>8</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.cartIconClickVerify()'><b>cartIconClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-397416108" onClick='toggleBox("Output-397416108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-397416108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-397416108">
+Cart Icon clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.addButtonClickVerify()'><b>addButtonClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-1433568941" onClick='toggleBox("Output-1433568941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1433568941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1433568941">
+Add+ Button clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.cashDeliveryClickVerify()'><b>cashDeliveryClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-1000419469" onClick='toggleBox("Output-1000419469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1000419469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1000419469">
+Cash Delivery Clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.myCartTextCheckVerify()'><b>myCartTextCheckVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-124581953" onClick='toggleBox("Output-124581953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124581953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124581953">
+myCart Text Verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.addButtonTextVerify()'><b>addButtonTextVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-357153703" onClick='toggleBox("Output-357153703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-357153703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-357153703">
+Add+ Button Text Verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyLoginTest.otpVerify()'><b>otpVerify</b><br>Test class: com.indusvalley.test.IndusValleyLoginTest<br/>
+<a href="#Output-1315081042" onClick='toggleBox("Output-1315081042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1315081042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1315081042">
+OTP verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.indusvalley.test.IndusValleyLoginTest@5dda768f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyCartTest.decrementButtonClickVerify()'><b>decrementButtonClickVerify</b><br>Test class: com.indusvalley.test.IndusValleyCartTest<br/>
+<a href="#Output-1063494931" onClick='toggleBox("Output-1063494931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063494931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063494931">
+Decrement Button Clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyCartTest@752325ad</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.addToCartButtonClick()'><b>addToCartButtonClick</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-1909141817" onClick='toggleBox("Output-1909141817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1909141817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1909141817">
+Add To Cart clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyLoginTest.phoneNumSend()'><b>phoneNumSend</b><br>Test class: com.indusvalley.test.IndusValleyLoginTest<br/>
+<a href="#Output-1897221921" onClick='toggleBox("Output-1897221921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1897221921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1897221921">
+Phone number send successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.indusvalley.test.IndusValleyLoginTest@5dda768f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.homeTitleVerify()'><b>homeTitleVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-32206364" onClick='toggleBox("Output-32206364", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32206364" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32206364">
+Home title verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.castIronButtonTextVerify()'><b>castIronButtonTextVerify</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br/>
+<a href="#Output-79706679" onClick='toggleBox("Output-79706679", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-79706679" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-79706679">
+castIron ButtonText verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.randomSearch()'><b>randomSearch</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br>Parameters: fry pan</td>
+<td></td>
+<td>5</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.randomSearch()'><b>randomSearch</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br>Parameters: Kadai</td>
+<td></td>
+<td>9</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+<tr>
+<td title='com.indusvalley.test.IndusValleyHomeTest.randomSearch()'><b>randomSearch</b><br>Test class: com.indusvalley.test.IndusValleyHomeTest<br>Parameters: tawa</td>
+<td></td>
+<td>5</td>
+<td>com.indusvalley.test.IndusValleyHomeTest@2a5c8d3f</td></tr>
+</table><p>
+</body>
+</html>

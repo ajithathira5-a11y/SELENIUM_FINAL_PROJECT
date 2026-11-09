@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Hp\eclipse-workspace\theIndusValley_automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 1 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="countLink">countLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="addButtonClickVerify">addButtonClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="addButtonTextVerify">addButtonTextVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="addToCartButtonClick">addToCartButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="addToCartButtonTextVerify">addToCartButtonTextVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="cartIconClickVerify">cartIconClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="cartPopUpCloseVerify">cartPopUpCloseVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="cashDeliveryClickVerify">cashDeliveryClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="castIronButtonTextVerify">castIronButtonTextVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="castIronButtonclickVerify">castIronButtonclickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="checkOutClickVerify">checkOutClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="decrementButtonClickVerify">decrementButtonClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="deleteButtonClickVerify">deleteButtonClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="filterVerify">filterVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="homeTitleVerify">homeTitleVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="imageClickVerify">imageClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="incrementButtonClickVerify">incrementButtonClickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyCartTest" class="method navigator-link" hash-for-method="myCartTextCheckVerify">myCartTextCheckVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyLoginTest" class="method navigator-link" hash-for-method="otpVerify">otpVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyLoginTest" class="method navigator-link" hash-for-method="phoneNumSend">phoneNumSend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="productsTextVerify">productsTextVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="randomSearch(coocker)">randomSearch(coocker)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="randomSearch(fry pan)">randomSearch(fry pan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="randomSearch(Kadai)">randomSearch(Kadai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="randomSearch(tawa)">randomSearch(tawa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.indusvalley.test.IndusValleyHomeTest" class="method navigator-link" hash-for-method="searchItems">searchItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.indusvalley.test.IndusValleyHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="countLink">
+                  </a> <!-- countLink -->
+                  <span class="method-name">countLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [719] but found [721]
+	at com.indusvalley.test.IndusValleyHomeTest.countLink(IndusValleyHomeTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.indusvalley.test.IndusValleyHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addButtonClickVerify">
+                  </a> <!-- addButtonClickVerify -->
+                  <span class="method-name">addButtonClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addButtonTextVerify">
+                  </a> <!-- addButtonTextVerify -->
+                  <span class="method-name">addButtonTextVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartButtonClick">
+                  </a> <!-- addToCartButtonClick -->
+                  <span class="method-name">addToCartButtonClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartButtonTextVerify">
+                  </a> <!-- addToCartButtonTextVerify -->
+                  <span class="method-name">addToCartButtonTextVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartPopUpCloseVerify">
+                  </a> <!-- cartPopUpCloseVerify -->
+                  <span class="method-name">cartPopUpCloseVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="castIronButtonTextVerify">
+                  </a> <!-- castIronButtonTextVerify -->
+                  <span class="method-name">castIronButtonTextVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="castIronButtonclickVerify">
+                  </a> <!-- castIronButtonclickVerify -->
+                  <span class="method-name">castIronButtonclickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterVerify">
+                  </a> <!-- filterVerify -->
+                  <span class="method-name">filterVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeTitleVerify">
+                  </a> <!-- homeTitleVerify -->
+                  <span class="method-name">homeTitleVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageClickVerify">
+                  </a> <!-- imageClickVerify -->
+                  <span class="method-name">imageClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productsTextVerify">
+                  </a> <!-- productsTextVerify -->
+                  <span class="method-name">productsTextVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomSearch(coocker)">
+                  </a> <!-- randomSearch(coocker) -->
+                  <span class="method-name">randomSearch</span>
+                  <span class="parameters">(coocker)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomSearch(fry pan)">
+                  </a> <!-- randomSearch(fry pan) -->
+                  <span class="method-name">randomSearch</span>
+                  <span class="parameters">(fry pan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomSearch(Kadai)">
+                  </a> <!-- randomSearch(Kadai) -->
+                  <span class="method-name">randomSearch</span>
+                  <span class="parameters">(Kadai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomSearch(tawa)">
+                  </a> <!-- randomSearch(tawa) -->
+                  <span class="method-name">randomSearch</span>
+                  <span class="parameters">(tawa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItems">
+                  </a> <!-- searchItems -->
+                  <span class="method-name">searchItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.indusvalley.test.IndusValleyCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartIconClickVerify">
+                  </a> <!-- cartIconClickVerify -->
+                  <span class="method-name">cartIconClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cashDeliveryClickVerify">
+                  </a> <!-- cashDeliveryClickVerify -->
+                  <span class="method-name">cashDeliveryClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutClickVerify">
+                  </a> <!-- checkOutClickVerify -->
+                  <span class="method-name">checkOutClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decrementButtonClickVerify">
+                  </a> <!-- decrementButtonClickVerify -->
+                  <span class="method-name">decrementButtonClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteButtonClickVerify">
+                  </a> <!-- deleteButtonClickVerify -->
+                  <span class="method-name">deleteButtonClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incrementButtonClickVerify">
+                  </a> <!-- incrementButtonClickVerify -->
+                  <span class="method-name">incrementButtonClickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myCartTextCheckVerify">
+                  </a> <!-- myCartTextCheckVerify -->
+                  <span class="method-name">myCartTextCheckVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.indusvalley.test.IndusValleyLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="otpVerify">
+                  </a> <!-- otpVerify -->
+                  <span class="method-name">otpVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phoneNumSend">
+                  </a> <!-- phoneNumSend -->
+                  <span class="method-name">phoneNumSend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Hp\eclipse-workspace\theIndusValley_automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.indusvalley.test.IndusValleyLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.indusvalley.test.IndusValleyHomeTest&quot;/&gt;
+      &lt;class name=&quot;com.indusvalley.test.IndusValleyCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'imageClickVerify')
+data.setCell(0, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(0, 3, 60578);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'otpVerify')
+data.setCell(1, 2, 'com.indusvalley.test.IndusValleyLoginTest')
+data.setCell(1, 3, 16213);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchItems')
+data.setCell(2, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(2, 3, 13994);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'filterVerify')
+data.setCell(3, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(3, 3, 13254);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'randomSearch')
+data.setCell(4, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(4, 3, 9394);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'randomSearch')
+data.setCell(5, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(5, 3, 8469);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cashDeliveryClickVerify')
+data.setCell(6, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(6, 3, 5965);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'randomSearch')
+data.setCell(7, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(7, 3, 5593);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'randomSearch')
+data.setCell(8, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(8, 3, 5306);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'phoneNumSend')
+data.setCell(9, 2, 'com.indusvalley.test.IndusValleyLoginTest')
+data.setCell(9, 3, 3057);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deleteButtonClickVerify')
+data.setCell(10, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(10, 3, 1326);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addToCartButtonTextVerify')
+data.setCell(11, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(11, 3, 632);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addButtonClickVerify')
+data.setCell(12, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(12, 3, 439);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'castIronButtonclickVerify')
+data.setCell(13, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(13, 3, 414);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addToCartButtonClick')
+data.setCell(14, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(14, 3, 390);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'cartIconClickVerify')
+data.setCell(15, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(15, 3, 333);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'incrementButtonClickVerify')
+data.setCell(16, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(16, 3, 251);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkOutClickVerify')
+data.setCell(17, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(17, 3, 240);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'productsTextVerify')
+data.setCell(18, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(18, 3, 238);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addButtonTextVerify')
+data.setCell(19, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(19, 3, 218);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'decrementButtonClickVerify')
+data.setCell(20, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(20, 3, 216);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'myCartTextCheckVerify')
+data.setCell(21, 2, 'com.indusvalley.test.IndusValleyCartTest')
+data.setCell(21, 3, 158);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'countLink')
+data.setCell(22, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(22, 3, 158);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'castIronButtonTextVerify')
+data.setCell(23, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(23, 3, 116);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'homeTitleVerify')
+data.setCell(24, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(24, 3, 29);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'cartPopUpCloseVerify')
+data.setCell(25, 2, 'com.indusvalley.test.IndusValleyHomeTest')
+data.setCell(25, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">productsTextVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">products Text Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">incrementButtonClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Increment Button Clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cartPopUpCloseVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CartPopUp Close Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">imageClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">image click Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">castIronButtonclickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">castIron Button clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addToCartButtonTextVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Add To Cart Button Text Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">deleteButtonClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Delete Button Clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchItems</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Item searched successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkOutClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CheckOut Clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">filterVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Add To Cart clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cartIconClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cart Icon clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addButtonClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Add+ Button clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cashDeliveryClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cash Delivery Clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">myCartTextCheckVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">myCart Text Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addButtonTextVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Add+ Button Text Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">otpVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">OTP verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">decrementButtonClickVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Decrement Button Clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addToCartButtonClick</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Add To Cart clicked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">phoneNumSend</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Phone number send successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">homeTitleVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home title verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">castIronButtonTextVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">castIron ButtonText verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.indusvalley.test.IndusValleyHomeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.indusvalley.test.IndusValleyCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.indusvalley.test.IndusValleyLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyLoginTest.phoneNumSend())</span>
+                <span class="method-start">20302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phoneNumSend</span>
+                <span class="method-start">20448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=phoneNumSend status=SUCCESS method=IndusValleyLoginTest.phoneNumSend()[pri:-1, inst...)</span>
+                <span class="method-start">23519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyLoginTest.otpVerify())</span>
+                <span class="method-start">23549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">otpVerify</span>
+                <span class="method-start">23553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=otpVerify status=SUCCESS method=IndusValleyLoginTest.otpVerify()[pri:-2, instance:c...)</span>
+                <span class="method-start">39766 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.indusvalley.test.IndusValleyHomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.countLink())</span>
+                <span class="method-start">39766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">countLink</span>
+                <span class="method-start">39775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=countLink status=FAILURE method=IndusValleyHomeTest.countLink()[pri:0, instance:com...)</span>
+                <span class="method-start">39943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.homeTitleVerify())</span>
+                <span class="method-start">40208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homeTitleVerify</span>
+                <span class="method-start">40208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=homeTitleVerify status=SUCCESS method=IndusValleyHomeTest.homeTitleVerify()[pri:1, ...)</span>
+                <span class="method-start">40238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.castIronButtonTextVerify())</span>
+                <span class="method-start">40242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">castIronButtonTextVerify</span>
+                <span class="method-start">40242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.castIronButtonclickVerify())</span>
+                <span class="method-start">40378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=castIronButtonTextVerify status=SUCCESS method=IndusValleyHomeTest.castIronButtonTe...)</span>
+                <span class="method-start">40378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">castIronButtonclickVerify</span>
+                <span class="method-start">40378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=castIronButtonclickVerify status=SUCCESS method=IndusValleyHomeTest.castIronButtonc...)</span>
+                <span class="method-start">40805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.searchItems())</span>
+                <span class="method-start">40807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItems</span>
+                <span class="method-start">40807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=searchItems status=SUCCESS method=IndusValleyHomeTest.searchItems()[pri:4, instance...)</span>
+                <span class="method-start">54803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.productsTextVerify())</span>
+                <span class="method-start">54806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productsTextVerify</span>
+                <span class="method-start">54808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=productsTextVerify status=SUCCESS method=IndusValleyHomeTest.productsTextVerify()[p...)</span>
+                <span class="method-start">55048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.addButtonTextVerify())</span>
+                <span class="method-start">55050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addButtonTextVerify</span>
+                <span class="method-start">55053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=addButtonTextVerify status=SUCCESS method=IndusValleyHomeTest.addButtonTextVerify()...)</span>
+                <span class="method-start">55273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.addButtonClickVerify())</span>
+                <span class="method-start">55277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addButtonClickVerify</span>
+                <span class="method-start">55280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=addButtonClickVerify status=SUCCESS method=IndusValleyHomeTest.addButtonClickVerify...)</span>
+                <span class="method-start">55721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.cartPopUpCloseVerify())</span>
+                <span class="method-start">55722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartPopUpCloseVerify</span>
+                <span class="method-start">55724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.imageClickVerify())</span>
+                <span class="method-start">55727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">imageClickVerify</span>
+                <span class="method-start">55727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=cartPopUpCloseVerify status=SUCCESS method=IndusValleyHomeTest.cartPopUpCloseVerify...)</span>
+                <span class="method-start">55727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=imageClickVerify status=SUCCESS method=IndusValleyHomeTest.imageClickVerify()[pri:9...)</span>
+                <span class="method-start">116306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.addToCartButtonTextVerify())</span>
+                <span class="method-start">116308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCartButtonTextVerify</span>
+                <span class="method-start">116310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=addToCartButtonTextVerify status=SUCCESS method=IndusValleyHomeTest.addToCartButton...)</span>
+                <span class="method-start">116943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.addToCartButtonClick())</span>
+                <span class="method-start">116944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCartButtonClick</span>
+                <span class="method-start">116945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=addToCartButtonClick status=SUCCESS method=IndusValleyHomeTest.addToCartButtonClick...)</span>
+                <span class="method-start">117335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">filterVerify</span>
+                <span class="method-start">117340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.filterVerify())</span>
+                <span class="method-start">117340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=filterVerify status=SUCCESS method=IndusValleyHomeTest.filterVerify()[pri:12, insta...)</span>
+                <span class="method-start">130595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String))</span>
+                <span class="method-start">131675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">randomSearch(Kadai)</span>
+                <span class="method-start">131675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.Strin...)</span>
+                <span class="method-start">141070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String))</span>
+                <span class="method-start">141073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">randomSearch(coocker)</span>
+                <span class="method-start">141075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.Strin...)</span>
+                <span class="method-start">149546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String))</span>
+                <span class="method-start">149547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">randomSearch(tawa)</span>
+                <span class="method-start">149550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.Strin...)</span>
+                <span class="method-start">154857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyHomeTest.randomSearch(java.lang.String))</span>
+                <span class="method-start">154858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">randomSearch(fry pan)</span>
+                <span class="method-start">154859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=randomSearch status=SUCCESS method=IndusValleyHomeTest.randomSearch(java.lang.Strin...)</span>
+                <span class="method-start">160453 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.indusvalley.test.IndusValleyCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.cartIconClickVerify())</span>
+                <span class="method-start">160455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartIconClickVerify</span>
+                <span class="method-start">160456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=cartIconClickVerify status=SUCCESS method=IndusValleyCartTest.cartIconClickVerify()...)</span>
+                <span class="method-start">160790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.myCartTextCheckVerify())</span>
+                <span class="method-start">160792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myCartTextCheckVerify</span>
+                <span class="method-start">160795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=myCartTextCheckVerify status=SUCCESS method=IndusValleyCartTest.myCartTextCheckVeri...)</span>
+                <span class="method-start">160953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.incrementButtonClickVerify())</span>
+                <span class="method-start">160968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">incrementButtonClickVerify</span>
+                <span class="method-start">160970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=incrementButtonClickVerify status=SUCCESS method=IndusValleyCartTest.incrementButto...)</span>
+                <span class="method-start">161222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.decrementButtonClickVerify())</span>
+                <span class="method-start">161223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">decrementButtonClickVerify</span>
+                <span class="method-start">161224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=decrementButtonClickVerify status=SUCCESS method=IndusValleyCartTest.decrementButto...)</span>
+                <span class="method-start">161440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.deleteButtonClickVerify())</span>
+                <span class="method-start">161448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteButtonClickVerify</span>
+                <span class="method-start">161450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=deleteButtonClickVerify status=SUCCESS method=IndusValleyCartTest.deleteButtonClick...)</span>
+                <span class="method-start">162778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.checkOutClickVerify())</span>
+                <span class="method-start">162779 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOutClickVerify</span>
+                <span class="method-start">162781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cashDeliveryClickVerify</span>
+                <span class="method-start">163023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before(public void com.indusvalley.test.IndusValleyCartTest.cashDeliveryClickVerify())</span>
+                <span class="method-start">163023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=checkOutClickVerify status=SUCCESS method=IndusValleyCartTest.checkOutClickVerify()...)</span>
+                <span class="method-start">163023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportGenerate([TestResult name=cashDeliveryClickVerify status=SUCCESS method=IndusValleyCartTest.cashDeliveryClick...)</span>
+                <span class="method-start">168988 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.indusvalley.test.IndusValleyLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">168990 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
